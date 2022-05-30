@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alya</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Alya</a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- hamburger menu icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Home section -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Alya</span></h2>
+                <p>
+                    A recent Computer Science graduate with <span class="color">cyber security</span> background and broad knowledge of network security components. Energetic <span class="color">self-starter</span> and <span class="color">team player</span> with great technical and communication skills. <span class="color">Fast learner</span> with the ability to constantly challenge myself and learn new skills and technologies.
+                </p>
+            </div>
+            <a class="home-button" href="#portfolio">View my work <i class='bx bx-down-arrow-alt'></i></a>
+        </div>
+    </section>
+    <!-- Portfolio section-->
+    <section class="portfolio container" id="portfolio">
+        <!-- Heading -->
+        <h2 class="heading">Portfolio</h2>
+        <!-- Portfolio content-->
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="img/rapid-crypto-cover.png" alt="portfolio image" class="portfolio-img">
+                
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Rapid Crypto</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/in-the-wild-cover.png" alt="portfolio image" class="portfolio-img">
+                
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>In the Wild</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/etch-a-sketch-cover.png" alt="portfolio image" class="portfolio-img">
+                
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Etch-A-Sketch: Pixel Sketch App</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/tic-tac-toe-cover.png" alt="portfolio image" class="portfolio-img">
+                
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Tic-Tac-Toe</h2>
+                    <a href="#">
+                        <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form -->
+    <section class="contact container" id="contact">
+        <!-- Heading -->
+        <h2 class="heading">Contact</h2>
+        <!-- Contact Form -->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+    <!-- Footer -->
+    <section class="footer container" id="footer" >
+        <div class="social">
+            <a href="mailto:al903325@dal.ca"><i class='bx bx-envelope' ></i></a>
+            <a href="https://github.com/alya-El" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i></a>
+        </div>
+        <!-- Copyright-->
+    <p>ALYA EL-SERAFI &#169 2022</p>
+    </section>
+    
+    <!-- Email JS Link -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Sweet Alert JS Link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+        emailjs.init("kNIMxpoUirM7Rek-_");
+        })();
+    </script>
+
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
