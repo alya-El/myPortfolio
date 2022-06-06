@@ -17,6 +17,7 @@
   --heading-color: #222231; 
   --box-color: #0d0f26;
   --bg-color: #fff;
+  --para-header-color: rgb(138, 101, 101);
 }
 body{
     color: var(--bg-color);
@@ -166,7 +167,7 @@ header{
     font-size: 0.938rem;
     margin-bottom: 1.5rem;
 }
-.home-text .color{
+.color{
     color: var(--main-color);
 }
 .home-button{
@@ -391,4 +392,77 @@ header{
     .navbar{
         width: 100%;
     }
+}
+
+/* Tabber section */
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 39px;
+    background: #B3728C;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.button-element {
+    width: 100px;
+    height: 39px;
+    background: var(--main-color);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: all 0.3s;
+}  
+#code{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+#design{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #723E53;
+    padding-left: 26px;
+}
+.code{
+    display: flex;
+}
+.design{
+    display: none;
+}
+
+/* Project detail section*/
+.detail-text {
+    text-align: start;
+}
+.detail-text h3{
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+.para, .para h4{
+    margin-bottom: 1rem;
+}
+.para h4{
+    color: var(--para-header-color)
+}
+.para p{
+    font-size: .95rem;
+}
+.detail-text img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

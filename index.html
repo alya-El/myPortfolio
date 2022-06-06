@@ -10,7 +10,7 @@
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
+<body id="home">
     <!-- Header -->
     <header>
         <div class="nav container">
@@ -47,9 +47,18 @@
     <section class="portfolio container" id="portfolio">
         <!-- Heading -->
         <h2 class="heading">Portfolio</h2>
+        <!-- Tabber -->
+        <div class="tabber">
+            <div class="button" id='button-container'>
+            <div id='my-button' class="button-element">
+              <p id='code'>Code</p>
+            </div>
+            <p id='design'>Design</p>
+        </div>
         <!-- Portfolio content-->
         <div class="portfolio-content">
-            <div class="portfolio-box">
+            <!-- Coding content -->
+            <div class="portfolio-box code">
                 <img src="img/rapid-crypto-cover.png" alt="portfolio image" class="portfolio-img">
                 
                 <!-- Overlay -->
@@ -61,19 +70,19 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
-                <img src="img/in-the-wild-cover.png" alt="portfolio image" class="portfolio-img">
+            <div class="portfolio-box code">
+                <img src="img/virtushelf.png" alt="portfolio image" class="portfolio-img">
                 
                 <!-- Overlay -->
                 <div class="portfolio-overlay">
-                    <h2>In the Wild</h2>
-                    <a href="https://github.com/alya-El/In-The-Wild" target="_blank" rel="noopener noreferrer">
+                    <h2>VirtuShelf</h2>
+                    <a href="https://github.com/alya-El/library" target="_blank" rel="noopener noreferrer">
                         <i class="bx bx-link-alt"></i>
                     </a>
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box code">
                 <img src="img/etch-a-sketch-cover.png" alt="portfolio image" class="portfolio-img">
                 
                 <!-- Overlay -->
@@ -85,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
+            <div class="portfolio-box code">
                 <img src="img/tic-tac-toe-cover.png" alt="portfolio image" class="portfolio-img">
                 
                 <!-- Overlay -->
@@ -93,6 +102,18 @@
                     <h2>Tic-Tac-Toe</h2>
                     <a href="https://github.com/alya-El/tic-tac-toe" target="_blank" rel="noopener noreferrer">
                         <i class="bx bx-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Design content-->
+            <div class="portfolio-box design">
+                <img src="img/runella-cover.png" alt="portfolio image" class="portfolio-img">
+                
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Runella</h2>
+                    <a href="./design-projects/runella.html">
+                        <i class="bx bx-plus"></i>
                     </a>
                 </div>
             </div>
